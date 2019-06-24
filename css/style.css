@@ -1,0 +1,295 @@
+
+/* /////////////////////////////////////////////// */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bg-light{
+    background-color: #ecedef !important;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    font-family: 'toriom'; 
+    color: white;   
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:white;
+    border-bottom:3px solid rgb(255, 255, 255);
+    padding-bottom:3px;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.line- h3 span{ 
+    background:white;
+    color: rgb(114, 70, 185);
+    padding:0 10px; 
+}
+.line- h3{
+    color: white;
+    font-weight: bolder;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid rgb(114, 70, 185);
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ }
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 101 css*/
+.jssorb101 .i {position:absolute;cursor:pointer;}
+.jssorb101 .i .ci {fill:#000;}
+.jssorb101 .i .co {fill:#fff;opacity:.3;}
+.jssorb101 .i:hover .co {fill:#ff9933;opacity: 1;}
+.jssorb101 .i:hover .ci {fill:#fff;}
+.jssorb101 .iav .ci {fill:#fff;stroke-width:0;}
+.jssorb101 .iav .co {fill:#46d1d3;opacity: 1;}
+.jssorb101 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.our_work p{
+    font-size: 20px;
+    font-family: 'toriom light';
+    line-height: 47px;
+    color: #55595f;
+}
+
+.our_work p:nth-child(2){
+    font-size: 18px;
+    color: #818791;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-weight: bold;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.our_work .button_color{
+    background-color: #7dc247;
+    border: 1px solid #7dc247;
+    color: #fff;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Noto Naskh Arabic', serif;
+    margin-top: 30px;
+    margin-left: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    line-height: 1.7em;
+}
+.our_work .button_color:hover{
+    background-color: rgb(202, 65, 55);
+}
+.our_work .button_color2{
+    background-color:#ecedef;
+    border: 1px solid #ecedef;
+    color:black;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Noto Naskh Arabic', serif;
+    margin-top: 30px;
+    margin-left: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    line-height: 1.7em;
+}
+.our_work .button_color2:hover{
+    background-color: rgb(43, 255, 0);    
+    color: black;
+}
+/* ---------------------------------------------------------------------------- */
+.idea_section{
+    color: white;
+}
+
+.idea_section h1{
+    font-family: 'toriom light';
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.idea_section h4{
+    font-family: 'toriom';
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.idea_section p{
+    font-size: 16px;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-weight: bolder;
+    line-height: 25px;
+}
+@media screen and (max-width: 500px) {
+    .divText{
+      margin-top: -100px;
+    }
+}
+@media screen and (min-width:500px){
+    .ImgCenter{
+        margin-top: 30px;
+    }
+}
+.idea_section .btn{
+    color: black;
+    background-color: #12ee0b;
+    width: 35%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Noto Naskh Arabic', serif;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    line-height: 1.8em;
+}
+.idea_section .btn:hover{
+    background-color:green;
+    color: white;
+}
+.ImgCenter img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* --------------------------------------------------------------- */
+.help .jumbotron{
+    background-color: #fafafb;
+}
+.help h1{
+    font-family: 'toriom light';
+    font-size: 32px;
+}
+.help p{
+    color: #818791;
+}
+.help .background_color:hover{
+    background-color: #ecedef;
+    transform: rotate(360deg);
+    transition: all.5s ease-in-out;
+}
+/* ------------------------------------------------------------------------- */
+.the_work{
+    background-color: rgb(202, 65, 55);
+    padding-top:10px; 
+}
+.the_work h1,p{
+    color: white;
+}
+.the_work .box_shadow{
+    margin-top: 10px;
+}
+.the_work .box_shadow p{
+    font-weight: bolder;
+    color: #000;
+}
+.box_shadow img{
+    max-width: 100%;
+}
+.box_shadow{
+    padding: 4px;
+    background-color: white;
+}
+.box_shadow:hover{
+    box-shadow: 5px 5px 5px 2px cadetblue;
+}
+/* ------------------------------------------------------------------------------ */
+.open-button {
+    color: white;
+    background-color: rgb(89, 26, 126);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 5px;
+    right: 130px;
+    width: 280px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 130px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .form-container h3{
+      text-align: center;
+      padding: 2px;
+      color: white;
+      background-color: rgb(202, 65, 55);
+  }
+  .form-container p{
+      color: #000;
+      text-align: right;
+  }
+
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+@media screen and (min-width: 0px) and (max-width: 1030px) {
+    .open-button{ display: none; }  /* hide it on smaller screen */
+}
